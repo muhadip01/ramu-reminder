@@ -1,0 +1,5 @@
+payment -> kirim ke brand
+posting -> tentative(optional)
+batch gausah dibaca
+posting h-1 bukan hari h
+payment h-1 bukan hari h
