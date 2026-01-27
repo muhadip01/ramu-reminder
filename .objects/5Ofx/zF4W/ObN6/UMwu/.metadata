@@ -1,0 +1,14 @@
+﻿{
+  "Name": "edit Type to Bintang Pr…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "UMwuPuVfa0esw6pVfFxxvg",
+  "Reference": "mmwaPJ_570WJWzHs31KGLg/UMwuPuVfa0esw6pVfFxxvg",
+  "ParentRef": "mmwaPJ_570WJWzHs31KGLg/ObN6TLtONk67L9qDJ1mzBA",
+  "Created": "2025-06-18T13:08:35.9951119Z",
+  "Updated": "2025-06-18T13:08:35.9951119Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

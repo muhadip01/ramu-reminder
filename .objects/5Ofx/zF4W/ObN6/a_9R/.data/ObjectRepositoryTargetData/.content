@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="g8DOgeds4kqTBZz5GPEFbg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="7eb410f4-b91e-4b9a-8b3e-620ce6a15bca" CvElementArea="511, 74, 65, 61" CvType="Icon" DesignTimeRectangle="509, 72, 69, 65" ElementType="Icon" Guid="b4545a3b-a346-41ec-b41f-2b2c802d0ace" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEUAAABBCAYAAACHHGk/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAGWSURBVHhe7djRbYMwGEXhTNHs0QzSDMIezSDNICzCILxQXSlI7s+NwI4hBZ2H7yUkwT1gl/j0cT4P+OsUXwBRLKIYRDGIYhDFIIpBFIMoBlEMohhEMYhiEMUgikEUgygGUQyiGEQxiGJUjfJ1vQ5932+m67rh534fPi+XyVheUTVK27aTgW9BcWqGqRqlaZrJgLeiCxLHU6pqFF2t9G6pOVBH5xvPpbslHi9VNYqkAxWtM/E9NaXnisdKVY8iWvzWuILObqLoblGMcbDft9vkPY7uKk25nGm3myiiELlR0jts6bQ7fJR0kSbKA1Eea4+OjdJ1SFNpfF3PP/Gzo8NFSf+gOUu+Ix4r9bYo8Xlmju6c+B1yqCiiMJoac9Pn2eflcFEiFlqDKEYaZelWwOGjaH0ZN47isWcOH6UEUYxdRUn3a3N+9eaIe8LxeKnVouQ+nL0qZx2as1oUSafQmv71xrWjMGvt8uf+p1pq9Sh7RBSDKAZRDKIYRDGIYhDFIIpBFIMoBlEMohhEMYhiEMUgikEUgyjGL8CjnLxcvDiVAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='whatsapp.root.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="795c897554c667e1aa310e4b2cf8b24d.png" xmlns="">07mfu8eyjyUiKuvvMhp07Tg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

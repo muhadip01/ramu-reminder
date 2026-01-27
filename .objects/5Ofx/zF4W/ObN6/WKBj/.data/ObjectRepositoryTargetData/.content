@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qUj5706aRUSP3W7lL0RbRQ" Reference="mmwaPJ_570WJWzHs31KGLg/WKBj_R-kiUyV57xrmosAtA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="3fd5b5c1-9808-4106-bab5-26f935682521" CvTextArea="816, 1302, 129, 25" CvTextArgument="lype a message" CvType="Text" DesignTimeRectangle="801, 1289, 1327, 60" ElementType="InputBox" FullSelectorArgument="&lt;uia automationid='InputBarTextBox' cls='RichEditBox' name='Type*' /&gt;" Guid="aa9213ca-1aa7-407c-9835-f45565f56d1e" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="a7173bcfbf203a278cbfc79caad49537.png" xmlns="">0tv7aVu315Ee1gH53tl-KIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

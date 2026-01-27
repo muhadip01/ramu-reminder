@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Data Admin bella - Google Sheets - Goo(1)",
+  "Type": "Screen",
+  "Id": "gkO379J5EkCuZy_6HOAalw",
+  "Reference": "mmwaPJ_570WJWzHs31KGLg/gkO379J5EkCuZy_6HOAalw",
+  "ParentRef": "mmwaPJ_570WJWzHs31KGLg/WxsGKEWHL06lSRReATlI-g",
+  "Created": "2025-06-18T12:28:10.965465Z",
+  "Updated": "2025-06-18T12:28:10.965465Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

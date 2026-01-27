@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Open a web browser page for automation purpos",
+  "Type": "Screen",
+  "Id": "euPY84NGTU2tmF9Yxfp0Sw",
+  "Reference": "mmwaPJ_570WJWzHs31KGLg/euPY84NGTU2tmF9Yxfp0Sw",
+  "ParentRef": "mmwaPJ_570WJWzHs31KGLg/WxsGKEWHL06lSRReATlI-g",
+  "Created": "2025-06-17T16:52:19.1764121Z",
+  "Updated": "2025-06-17T16:52:19.1764121Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

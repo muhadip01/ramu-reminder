@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vb-So7VKHUe6rf7gClc_cQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="6ae4a08e-fc1c-450f-935a-ae0788937141" CvElementArea="524, 98, 40, 35" CvType="Icon" DesignTimeRectangle="522, 96, 44, 39" ElementType="Icon" Guid="0c927f1a-61d6-473a-b751-c4e8a84675ac" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAnCAYAAAB0Q6rCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAE0SURBVFhH7ZfREYMgDIadou5RB6mDuEcdpA7iIg7iC73/IXe5KBAsQb3y8L0YDR8QEJpH27o70cgHV6cKW1OFranC1niFX33v1nUtxrIs7jNN7tl1GxeV8DzPm6QlgHhI2is8DMMmWSkwWNInKoxe8lEOJckB2qO2MMoyTniFZRKAupbv5IS3JWNEUBhgIWh6noMswhhliFKi9zhu3tkDs4EySimlLMIAkqnCfGa0pXSqMF+wVTiGRhi1jhjB6x7lQc+xv8tviaLCvLEYmhwyRmQRlvt1DIy4zAGKCQNIY7pjJeH7HhQVllx+0UluLRw6LnJOFUY906FcxnycKnyE/xXm97uU01cK8g4p44RKOPXH8CuhulcJA14Wlhy+hO4BaavbtHZHSRK+AlXYmipsTRW25gsuffY3t2o33wAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='whatsapp.root.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6ae4a08e-fc1c-450f-935a-ae0788937141" CvTextArea="135, 99, 88, 30" CvTextArgument="Chats" CvType="Text" DesignTimeRectangle="135, 99, 88, 30" ElementType="Text" Guid="0469d294-b734-40ea-aa1a-74cd81e861e1" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="840bbd37b3f095a49116e7c367505660.png" xmlns="">0j-MxOLjpVEKsd40aGAu5oA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

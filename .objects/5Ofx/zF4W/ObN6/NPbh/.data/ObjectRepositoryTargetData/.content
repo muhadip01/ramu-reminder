@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7GsEC438rkCDccqGrjZllA" Reference="mmwaPJ_570WJWzHs31KGLg/NPbh2PW8OUSDGEe0zIsItg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b1f92460-d116-436a-ab39-20c7b095225c" CvElementArea="1370, 721, 45, 44" CvType="Button" DesignTimeRectangle="1370, 721, 45, 44" ElementType="Button" Guid="278fdc6f-648c-4f26-98bc-6105b40b80c6" ScopeSelectorArgument="&lt;wnd app='whatsapp.root.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bee1c6a8-4cc5-4674-8e57-ffdaeab97823" CvElementArea="517, 730, 25, 25" CvType="Icon" DesignTimeRectangle="515, 728, 29, 29" ElementType="Icon" Guid="7f9229eb-7fdd-49a9-b55b-0ceb7d22015a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJxSURBVEhL7ZTLaxpRFMb7x7Q+Y2PapEh2DSWLNlk0ixIqoSlZFBOjaQ0koWmgeUAem4Zm21SzcOeyQc1SrUKzsBEEwSrS+FqIG8HH5tRzYS5zx+N0urBkkcUPme9853wz3plz565OB/+b29CBcjND71utcHh0BOGLC8jlctDpdEh+dWuhcBj2Dw7ANDREzpJQDX02PQ2/r6/JEDXw5p5MTpIzkb6hT6emoFarsSH4FO6VFbin15NeRGcwgGd1FRKJBOspl8vweGKC9JKh+PcUCgXW/NXrBaPZ3ONRIxAIsN5UKkXeKBn6cXubNUWj0Z6aFgwmEySTSTZjaXm5p06GSg2vFxa45lhchFgsBm8cDsHbr+Z0udiMYDAoeBEytF6vswazxcK1SqXCtFKpJHj71Wzj40zDY5J7ETIUzYhcC4ZCTMNfua5WQ63dbgsaojnUOjICL+129t3KdQQ1ZQ3fZmoOojn0X3nr8Qw2dG1jg39iSvC8lX7NobgK8Q1V8vPqSghREolEhDmI5tAPW1vCMDmVahXedbfRg9FR5sXz/HF5yWpr6+vCHIQMrXaHYMPDsTFB39ndhUajIQQiS06n4POdnTE9k8mA3mgUaggZ+j0eZ03UInhks8HO3h58Oz/nofLv+cvpKdOazSY8n5kReiXI0Pebm6wx3l3eVF0CPa1Wi197fT6uudxuwSuHDMUFL1/4uEspnxSAdb/fz69xBVJ+CTIUsc/NsSFINpvtGSTVceOk02keqDxfir6hyKv5eSgWizxcjXw+Dy9mZ8k5SlRDEVxtn09O+FJXgvqn42OwDA+T/RR/DR0Et6EDRAd/AIYnYKNwks8CAAAAAElFTkSuQmCC" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="17cda38ba3c067616b256fe7614118d6.png" xmlns="">0hvQHUfRbDEKg6heild5M1w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

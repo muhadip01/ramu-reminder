@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Lu-nqut9ckyQ6wpYR-aeHQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="62b75505-fb0b-40c2-a695-791b9287e209" CvElementArea="855, 764, 227, 41" CvType="Button" DesignTimeRectangle="857, 765, 225, 40" ElementType="Button" FuzzySelectorArgument="&lt;uia cls='Button' role='button' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="bcd39ffe-5362-4867-b960-ee7f0771c932" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="429c456487a8be032a3fb2672a3854c8.png" xmlns="">0Hc9lzSUSn0SITcNdC83Myw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

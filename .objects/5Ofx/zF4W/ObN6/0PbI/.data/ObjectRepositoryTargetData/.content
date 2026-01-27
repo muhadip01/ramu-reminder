@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iNoxCrzyKEy58tDE88zB8g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d06c0c21-8814-4a6b-9f18-17f36a7aae78" CvElementArea="610, 92, 41, 46" CvType="Icon" DesignTimeRectangle="608, 90, 45, 50" ElementType="Icon" Guid="9d92f0f5-9a62-475c-8eb9-de152055133f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC0AAAAyCAYAAADImlLUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFTSURBVGhD7ZXRjcJADESpAvo4CoFC0sdRCBSSRlJIfnIy0p5OAxaeZby5iP14P9ZIeYrsnd3+cFi2xg4HW6BLt6JLt6JLt6JLt6JaehiG5XQ+P8wzMggt/XU8LtM0LfM83xnH8T7LyHjQ0t+Xy++HCjbLyHjQ0n//TsFmGRkPWvp6uz18DP+QKuNBS+MuGriLqowHLV2wi3919aoMUi29Jp8lHSkFVQahpfGAnpWCKuNBS0dKQZXxoKXxmTKwFFQZD1o6UgqqjActjbto4C6qMh60dCFSCqoMUi29Jp8lHSkFVQahpfGAnpWCKuNBS0dKQZXxoKXxmTKwFFQZD1o6UgqqjActjbto4C6qMh60dCFSCqoMUi29Jl0aqSmOCCnSeGRMcURIkX6nOCKkSONTZkSLI0KK9DvFESFFGnfa+Pc7Xagpjgip0ll06VZ06VZsUvoHEAixdI3v65YAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='whatsapp.root.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d06c0c21-8814-4a6b-9f18-17f36a7aae78" CvTextArea="192, 105, 103, 22" CvTextArgument="New chat" CvType="Text" DesignTimeRectangle="192, 105, 103, 22" ElementType="Text" Guid="e14aa68f-0bdd-414c-85ae-d61667fc9119" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="689e0331d47bb5e8d9ee4ab6fe3bfa97.png" xmlns="">0PPTkD4YMbEuY2GZveUds6g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

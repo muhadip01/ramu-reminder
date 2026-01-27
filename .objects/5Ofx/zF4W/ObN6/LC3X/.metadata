@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chats",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "LC3XkMa-ZkyPpvJ4XwyS_g",
+  "Reference": "mmwaPJ_570WJWzHs31KGLg/LC3XkMa-ZkyPpvJ4XwyS_g",
+  "ParentRef": "mmwaPJ_570WJWzHs31KGLg/ObN6TLtONk67L9qDJ1mzBA",
+  "Created": "2025-10-03T02:25:02.5843344Z",
+  "Updated": "2025-10-03T02:25:02.5843344Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

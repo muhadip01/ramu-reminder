@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WXQ-UHTw-kqKAoIEhzt10g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="3dce30d6-6004-474b-90c7-7aa40e435b8b" CvElementArea="855, 764, 227, 41" CvTextArea="924, 776, 88, 17" CvTextArgument="Get started" CvType="Button" DesignTimeRectangle="857, 765, 225, 40" ElementType="Button" FullSelectorArgument="&lt;uia cls='Button' name='Get started' /&gt;" Guid="4d771404-adf5-45e9-bafe-99b9e77629ad" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="8d70bb73c143f408baf27b278a19fe8d.png" xmlns="">0b5TUe5JqUk6j0BEL08a-gg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

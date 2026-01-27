@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YWTWPFx0l025E1ViEJKOoQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="02471835-feda-4e84-9343-0d991f6c90f7" CvElementArea="136, 154, 512, 51" CvType="InputBox" DesignTimeRectangle="136, 154, 512, 51" ElementType="InputBox" Guid="af34f523-f777-48d0-a9d2-cf940ba8b09f" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='whatsapp.root.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="02471835-feda-4e84-9343-0d991f6c90f7" CvTextArea="194, 105, 157, 22" CvTextArgument="Phone number" CvType="Text" DesignTimeRectangle="194, 105, 157, 22" ElementType="Text" Guid="39a415aa-8d6b-4449-a859-5c4f8537ef4f" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c0103309f136bfb0331b33005e15b345.png" xmlns="">0yRj7wUClhU-IzrREI0aMjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

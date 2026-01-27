@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Button(2)",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "NPbh2PW8OUSDGEe0zIsItg",
+  "Reference": "mmwaPJ_570WJWzHs31KGLg/NPbh2PW8OUSDGEe0zIsItg",
+  "ParentRef": "mmwaPJ_570WJWzHs31KGLg/ObN6TLtONk67L9qDJ1mzBA",
+  "Created": "2026-01-25T09:58:58.6392242Z",
+  "Updated": "2026-01-25T10:10:03.9588645Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="t2_eAvHdHUyxkWp7dk4Gdw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8d03fd46-e47e-46c4-a3f2-38357273bb69" CvTextArea="193, 94, 104, 24" CvTextArgument="New chat" CvType="Text" DesignTimeRectangle="193, 94, 104, 24" ElementType="Text" Guid="0060867b-4ce5-48c3-8501-3420384e9b0b" ScopeSelectorArgument="&lt;wnd app='whatsapp.root.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="c551fe7d66e262678995bc17f08919da.png" xmlns="">0lzcRM002ckamWWw6KfCndw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

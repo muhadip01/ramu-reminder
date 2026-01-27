@@ -1,0 +1,280 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="check_whatsapp_login" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="check_whatsapp_login_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugage="clr-namespace:UiPath.GSuite.Activities.Gmail.Enums;assembly=UiPath.GSuite.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.GSuite.Activities.Gmail.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.GSuite.Activities</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable9</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable10</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="check_whatsapp_login" sap:VirtualizedContainerService.HintSize="1560,1244" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="loginPageTextHardCode1" />
+      <Variable x:TypeArguments="x:String" Name="loginPageTextHardCode" />
+      <Variable x:TypeArguments="x:String" Name="getStarted" />
+      <Variable x:TypeArguments="x:String" Name="loginPageText" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="WhatsApp" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1560,1221.3333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InUiElement="{x:Null}" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="87da85de-997a-4a46-958e-3190d1645025" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1526,923.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Check App State 'Chats'" Exists="{x:Null}" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1492,856.6666666666666" sap2010:WorkflowViewState.IdRef="NCheckState_1" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" Result="{x:Null}" ScopeIdentifier="87da85de-997a-4a46-958e-3190d1645025" Timeout="5" Version="V4">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,432.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uga:SendEmailConnections ArgumentAttachmentPaths="{x:Null}" ArgumentAttachments="{x:Null}" ConnectionAccountName="{x:Null}" AttachmentInputMode="UseExisting" AttachmentPaths="{x:Null}" AuthScopesInvalid="False" Bcc="{x:Null}" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;the whatsapp on the server needs to login before it can do the automation&lt;/SPAN&gt;&lt;/P&gt;&quot;)]" Cc="{x:Null}" ConnectionId="989b536c-ac09-45fb-a5a6-275e1855b318" ContinueOnError="{x:Null}" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="416,61.333333333333336" sap2010:WorkflowViewState.IdRef="SendEmailConnections_1" Importance="Normal" InputType="HTML" ReplyTo="{x:Null}" SaveAsDraft="False" SingleAttachment="{x:Null}" Subject="Whatsapp need to login" TextBody="{x:Null}" To="[New String(){&quot;muhadip01@gmail.com&quot;}]" UseConnectionService="True">
+                    <uga:SendEmailConnections.Attachments>
+                      <InArgument x:TypeArguments="scg:IEnumerable(upr:IResource)" />
+                    </uga:SendEmailConnections.Attachments>
+                    <uga:SendEmailConnections.AttachmentsBackup>
+                      <usau:BackupSlot x:TypeArguments="ugage:AttachmentInputMode" StoredValue="UseExisting">
+                        <usau:BackupSlot.BackupValues>
+                          <scg:Dictionary x:TypeArguments="ugage:AttachmentInputMode, scg:List(x:Object)" />
+                        </usau:BackupSlot.BackupValues>
+                      </usau:BackupSlot>
+                    </uga:SendEmailConnections.AttachmentsBackup>
+                    <uga:SendEmailConnections.InputTypeBackup>
+                      <usau:BackupSlot x:TypeArguments="ugage:BodyInputType" StoredValue="HTML">
+                        <usau:BackupSlot.BackupValues>
+                          <scg:Dictionary x:TypeArguments="ugage:BodyInputType, scg:List(x:Object)" />
+                        </usau:BackupSlot.BackupValues>
+                      </usau:BackupSlot>
+                    </uga:SendEmailConnections.InputTypeBackup>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uga:SendEmailConnections>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,183.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error" Message="[&quot;Whatsapp not logged in&quot;]" />
+                  <TerminateWorkflow DisplayName="Terminate Workflow" Exception="{x:Null}" sap:VirtualizedContainerService.HintSize="416,121.33333333333333" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_1" Reason="Whatsapp not logged in" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="988,563.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NCheckState ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Check App State 'Not busy... To set up W…'" Exists="{x:Null}" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="954,496.6666666666667" sap2010:WorkflowViewState.IdRef="NCheckState_2" InUiElement="{x:Null}" OutUiElement="{x:Null}" Result="{x:Null}" ScopeIdentifier="87da85de-997a-4a46-958e-3190d1645025" Timeout="5" Version="V4">
+                    <uix:NCheckState.IfExists>
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,408.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uga:SendEmailConnections ArgumentAttachmentPaths="{x:Null}" ArgumentAttachments="{x:Null}" ConnectionAccountName="{x:Null}" AttachmentInputMode="UseExisting" AttachmentPaths="{x:Null}" AuthScopesInvalid="False" Bcc="{x:Null}" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;the whatsapp on the server needs to login before it can do the automation&lt;/SPAN&gt;&lt;/P&gt;&quot;)]" Cc="{x:Null}" ConnectionId="989b536c-ac09-45fb-a5a6-275e1855b318" ContinueOnError="{x:Null}" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="SendEmailConnections_2" Importance="Normal" InputType="HTML" ReplyTo="{x:Null}" SaveAsDraft="False" SingleAttachment="{x:Null}" Subject="Whatsapp need to login" TextBody="{x:Null}" To="[New String(){&quot;muhadip01@gmail.com&quot;}]" UseConnectionService="True">
+                          <uga:SendEmailConnections.Attachments>
+                            <InArgument x:TypeArguments="scg:IEnumerable(upr:IResource)" />
+                          </uga:SendEmailConnections.Attachments>
+                          <uga:SendEmailConnections.AttachmentsBackup>
+                            <usau:BackupSlot x:TypeArguments="ugage:AttachmentInputMode" StoredValue="UseExisting">
+                              <usau:BackupSlot.BackupValues>
+                                <scg:Dictionary x:TypeArguments="ugage:AttachmentInputMode, scg:List(x:Object)" />
+                              </usau:BackupSlot.BackupValues>
+                            </usau:BackupSlot>
+                          </uga:SendEmailConnections.AttachmentsBackup>
+                          <uga:SendEmailConnections.InputTypeBackup>
+                            <usau:BackupSlot x:TypeArguments="ugage:BodyInputType" StoredValue="HTML">
+                              <usau:BackupSlot.BackupValues>
+                                <scg:Dictionary x:TypeArguments="ugage:BodyInputType, scg:List(x:Object)" />
+                              </usau:BackupSlot.BackupValues>
+                            </usau:BackupSlot>
+                          </uga:SendEmailConnections.InputTypeBackup>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uga:SendEmailConnections>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Error" Message="[&quot;Whatsapp not logged in&quot;]" />
+                        <TerminateWorkflow DisplayName="Terminate Workflow" Exception="{x:Null}" sap:VirtualizedContainerService.HintSize="416,114.66666666666667" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_2" Reason="Whatsapp not logged in" />
+                      </Sequence>
+                    </uix:NCheckState.IfExists>
+                    <uix:NCheckState.IfNotExists>
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,243.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Whatsapp already login, begin flow&quot;]">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:LogMessage>
+                      </Sequence>
+                    </uix:NCheckState.IfNotExists>
+                    <uix:NCheckState.Target>
+                      <uix:TargetAnchorable ContentHash="NbZoNaNiO06MtILu58FPCg" DesignTimeRectangle="11, 1, 1178, 888" FullSelectorArgument="&lt;wnd cls='Microsoft.UI.Content.DesktopChildSiteBridge' /&gt;" Guid="4f71f205-23ce-496f-a7f5-602a8456b241" InformativeScreenshot="d5a8779720ed1ae1f22f7fac25aa4876.png" Reference="mmwaPJ_570WJWzHs31KGLg/o2MdAv99906Hdy5LOTaQKg" ScopeSelectorArgument="&lt;wnd app='whatsapp.root.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:NCheckState.Target>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NCheckState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="a5e8103b-c0bd-4990-9195-f5c36ea30240" ContentHash="FhvGnfKxp0C273P84-magw" CvElementArea="460, 542, 278, 62" CvTextArea="573, 564, 55, 25" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="460, 542, 278, 62" ElementType="Button" Guid="82ec4ab2-dab3-40b9-becd-e524fb72cb5d" InformativeScreenshot="9c8b210789545b1bd343120939a76586.png" Reference="mmwaPJ_570WJWzHs31KGLg/LC3XkMa-ZkyPpvJ4XwyS_g" ScopeSelectorArgument="&lt;wnd app='whatsapp.root.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1295, 485, 1200, 900" ContentHash="Buo0dMFsmU-CO0QSKzuOOw" FilePath="5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App" IconBase64="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" InformativeScreenshot="8a52733dcf93e5f5b8ed921b2fabb708.png" Reference="mmwaPJ_570WJWzHs31KGLg/ObN6TLtONk67L9qDJ1mzBA" Selector="&lt;wnd app='whatsapp.root.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

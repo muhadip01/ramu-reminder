@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Non Client Input Sink W…",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "PihGlz8Nl0qvJd0cpm3kgQ",
+  "Reference": "mmwaPJ_570WJWzHs31KGLg/PihGlz8Nl0qvJd0cpm3kgQ",
+  "ParentRef": "mmwaPJ_570WJWzHs31KGLg/ObN6TLtONk67L9qDJ1mzBA",
+  "Created": "2026-01-25T10:15:40.6738008Z",
+  "Updated": "2026-01-25T10:15:40.6738008Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

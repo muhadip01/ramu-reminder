@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Open a web browser page for automation purposes.",
+  "Type": "App",
+  "Id": "Hsq08Zg0NUSEmyK0mjMijQ",
+  "Reference": "mmwaPJ_570WJWzHs31KGLg/Hsq08Zg0NUSEmyK0mjMijQ",
+  "Created": "2025-06-17T16:52:19.0432938Z",
+  "Updated": "2025-06-17T16:52:19.0432938Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

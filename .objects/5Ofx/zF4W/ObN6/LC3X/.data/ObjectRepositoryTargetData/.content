@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FhvGnfKxp0C273P84-magw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a5e8103b-c0bd-4990-9195-f5c36ea30240" CvElementArea="460, 542, 278, 62" CvTextArea="573, 564, 55, 25" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="460, 542, 278, 62" ElementType="Button" Guid="82ec4ab2-dab3-40b9-becd-e524fb72cb5d" ScopeSelectorArgument="&lt;wnd app='whatsapp.root.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="9c8b210789545b1bd343120939a76586.png" xmlns="">003P2x7UCBEeSWWG_GfLFYA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Icon 'Chats'",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "0PbI8OJqCkeGhUEyxZLH4A",
+  "Reference": "mmwaPJ_570WJWzHs31KGLg/0PbI8OJqCkeGhUEyxZLH4A",
+  "ParentRef": "mmwaPJ_570WJWzHs31KGLg/ObN6TLtONk67L9qDJ1mzBA",
+  "Created": "2026-01-11T05:36:00.5155394Z",
+  "Updated": "2026-01-11T05:36:00.5155394Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

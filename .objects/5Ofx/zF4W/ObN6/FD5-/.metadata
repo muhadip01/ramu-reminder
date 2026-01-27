@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Icon 'Phone number'",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "FD5-U15Rg0CNXI-WzS6UGQ",
+  "Reference": "mmwaPJ_570WJWzHs31KGLg/FD5-U15Rg0CNXI-WzS6UGQ",
+  "ParentRef": "mmwaPJ_570WJWzHs31KGLg/ObN6TLtONk67L9qDJ1mzBA",
+  "Created": "2026-01-11T06:10:02.9250198Z",
+  "Updated": "2026-01-11T06:10:02.9250198Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

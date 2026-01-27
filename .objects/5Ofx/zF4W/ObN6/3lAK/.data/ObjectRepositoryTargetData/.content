@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LuimRP3l2ESULO6raAx46A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="fe1e0702-d28c-40d7-8d5f-8b1c6e26817c" CvTextArea="816, 1302, 129, 25" CvTextArgument="lype a message" CvType="Text" DesignTimeRectangle="801, 1289, 1327, 60" ElementType="InputBox" FullSelectorArgument="&lt;uia automationid='InputBarTextBox' cls='RichEditBox' name='Type to Bintang Prabowo (You)' /&gt;" Guid="a6c06d81-a368-4e69-a43a-1fd100954f8d" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="735, 1289, 60, 60" ElementType="Button" FuzzySelectorArgument="&lt;uia automationid='AttachButton' cls='ToggleButton' name='Add attachment' role='button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='' /&gt;" Guid="98978e4b-89b1-42bb-afec-4b47fcb1be23" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b7db8cfe111be5d7c62e3ae890ae3f4a.png" xmlns="">05c93cUWZwUa-jspIlN14vA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

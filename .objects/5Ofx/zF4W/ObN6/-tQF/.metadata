@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Get started",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "-tQFWR6-8UmS24QAIpJh6A",
+  "Reference": "mmwaPJ_570WJWzHs31KGLg/-tQFWR6-8UmS24QAIpJh6A",
+  "ParentRef": "mmwaPJ_570WJWzHs31KGLg/ObN6TLtONk67L9qDJ1mzBA",
+  "Created": "2025-10-03T02:25:02.6771577Z",
+  "Updated": "2025-10-03T02:25:02.6771577Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

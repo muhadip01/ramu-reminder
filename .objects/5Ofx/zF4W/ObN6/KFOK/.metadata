@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Input 'edit Type to Cariño'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "KFOK7PBS4U6JyiqqeQzLSg",
+  "Reference": "mmwaPJ_570WJWzHs31KGLg/KFOK7PBS4U6JyiqqeQzLSg",
+  "ParentRef": "mmwaPJ_570WJWzHs31KGLg/ObN6TLtONk67L9qDJ1mzBA",
+  "Created": "2025-08-13T18:25:50.5863774Z",
+  "Updated": "2025-08-13T18:25:50.5863774Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

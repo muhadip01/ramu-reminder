@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PlyIoK2BLka8Khitzn4ICg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="dad6b541-3972-4d67-8bf9-bf2ee1ebf278" CvElementArea="551, 462, 423, 51" CvTextArea="739, 478, 45, 19" CvTextArgument="Chat" CvType="Button" DesignTimeRectangle="553, 465, 420, 48" ElementType="Button" FullSelectorArgument="&lt;uia cls='Button' name='Chat' /&gt;" Guid="1a6e26cd-e3e7-4b8f-a285-45bf33484702" ScopeSelectorArgument="&lt;wnd app='applicationframehost.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dad6b541-3972-4d67-8bf9-bf2ee1ebf278" CvTextArea="568, 316, 188, 19" CvTextArgument="+62 878-7421-8743" CvType="Text" DesignTimeRectangle="553, 302, 420, 49" ElementType="InputBox" FullSelectorArgument="&lt;uia automationid='PhoneNumberTextBox' cls='TextBox' name='Enter phone number' /&gt;" Guid="23338863-ea42-49b0-a7ac-54d710c4e75b" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c5ca46ca792d049b1f8072a475f5df8c.png" xmlns="">01ZLkYQGEdUy_3oQEVHY0uw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xPkzf0rUoU2MacbbX9pksw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="9c5cfb45-694f-4fe2-9e2e-d800077723cc" CvElementArea="510, 83, 66, 63" CvType="Icon" DesignTimeRectangle="508, 81, 70, 67" ElementType="Icon" Guid="f7ccd8eb-9c77-44b1-b6c5-e114f8676f48" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEYAAABDCAYAAAAh43M3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAGeSURBVHhe7dnRUYNAGEXhVGH6MIWYQujDFGIKoREK4QXnjjKz88MdWLKgwHn4XrJJWA/sinh5u147DF3iC/hBGIMwBmEMwhiEMQhjEMYgjEEYgzAGYQzCGIQxCGMQxiCMQRiDMAZhDMIYhDGKh/m437u2bTfTNE339Xx277fbYC6vKB6mruvB5LegQCXjFA9TVdVg0lvRSYnzWap4GJ219KopOdkxOl5/LF01cXyp4mEknaxo34nvKSk9VhxbapUwog1xjTM5ZldhdNUoSD/hz8dj8J4xurq0/HKW4K7CiGLkhkmvtLlL8BRh0o2bMAnC/NJepLFeui9pWfWv6/4ofrZ3yDDpDzVlznfEsaX+NEy835miKyh+hxwujCiOlsnUUnKfl0OGidh8DcIYaZi5jxFOEUb7Tf/wKY45pwizBGGM3YVJn//m/LWcIz5jjuNLrRom9wbuVTn70pRVw0i6nNb07x+Gj1Gctf57kPsbbK5NwuwRYQzCGIQxCGMQxiCMQRiDMAZhDMIYhDEIYxDGIIxBGIMwBmEMwhiEMb4BqRmfchnBYlsAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='whatsapp.root.exe' appid='5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App' title='WhatsApp' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9c5cfb45-694f-4fe2-9e2e-d800077723cc" CvTextArea="135, 99, 88, 30" CvTextArgument="Chats" CvType="Text" DesignTimeRectangle="135, 99, 88, 30" ElementType="Text" Guid="946022d6-ea17-4fdf-815f-53a209ca71ba" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c2d5080d0a5abdbe78b3ab25202b15fe.png" xmlns="">0i6zMlGMZ6ECya4dLwhimwA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
