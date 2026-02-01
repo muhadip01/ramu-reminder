@@ -130,7 +130,7 @@
       <AssemblyReference>Studio.Generated.TypedDataTable13</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="sheetExtraction" sap:VirtualizedContainerService.HintSize="639,1890" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="sheetExtraction" sap:VirtualizedContainerService.HintSize="638,2071.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtPayment" />
       <Variable x:TypeArguments="s:String[]" Name="formats" />
@@ -140,7 +140,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="546,1867" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="617.3333333333334,2048.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="ramuKolRange" />
         <Variable x:TypeArguments="x:String" Name="ramuProgressBrandRange" />
@@ -152,7 +152,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:MultipleAssign sap2010:Annotation.AnnotationText="Deploy Update - Need Update Sheet ID based on Env" DisplayName="Multiple Assign required testFirst variables" sap:VirtualizedContainerService.HintSize="512,242" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+      <ui:MultipleAssign sap2010:Annotation.AnnotationText="Deploy Update - Need Update Sheet ID based on Env" DisplayName="Multiple Assign required testFirst variables" sap:VirtualizedContainerService.HintSize="583.3333333333334,241.33333333333334" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
         <ui:MultipleAssign.AssignOperations>
           <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
             <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
@@ -187,7 +187,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:MultipleAssign>
-      <uga:ReadRangeConnections x:TypeArguments="sd1:DataTable13" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari RAMU Tracking Automation" BrowserItemId="https://docs.google.com/spreadsheets/d/1yyKVpHcikcqGM9WKBsvaPQlZI-SJR_WR0iHYTJ_h_p0/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU Dashboard" HasHeaders="True" sap:VirtualizedContainerService.HintSize="512,321" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_1" ItemSelectionMode="Browse" Range="'Progress Brand Deals'" ReadAs="Values" Result="[dtRamu]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd1:DataTable13" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari RAMU Tracking Automation" BrowserItemId="https://docs.google.com/spreadsheets/d/1yyKVpHcikcqGM9WKBsvaPQlZI-SJR_WR0iHYTJ_h_p0/edit?usp=drivesdk" ConnectionId="83fae671-05da-4ea7-81c3-f19072708174" DisplayName="Read Range RAMU Dashboard" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,329.3333333333333" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_1" ItemSelectionMode="Browse" Range="'Progress Brand Deals'" ReadAs="Values" Result="[out_dtRamu]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>No</x:String>
@@ -209,10 +209,11 @@
             <x:String>Storyline</x:String>
             <x:String>Storyline Link</x:String>
             <x:String>Drafting</x:String>
-            <x:String>POSTING</x:String>
+            <x:String>Posting</x:String>
             <x:String>Progress Check</x:String>
             <x:String>Done</x:String>
             <x:String>Reporting</x:String>
+            <x:String>Remind Post</x:String>
           </x:Array>
         </uga:ReadRangeConnections.ColumnNames>
         <uga:ReadRangeConnections.FileIdBackup>
@@ -229,7 +230,7 @@
           </usau:BackupSlot>
         </uga:ReadRangeConnections.FileIdBackup>
         <uga:ReadRangeConnections.Item>
-          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID0}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1yyKVpHcikcqGM9WKBsvaPQlZI-SJR_WR0iHYTJ_h_p0/edit?usp=drivesdk" ConnectionKey="05a538ec-b943-4857-9ecf-1bcbf09b9588" FriendlyName="Salinan dari RAMU Tracking Automation" FullPathHint="My Drive/Salinan dari RAMU Tracking Automation" InputMode="Browse">
+          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID0}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1yyKVpHcikcqGM9WKBsvaPQlZI-SJR_WR0iHYTJ_h_p0/edit?usp=drivesdk" ConnectionKey="83fae671-05da-4ea7-81c3-f19072708174" FriendlyName="Salinan dari RAMU Tracking Automation" FullPathHint="Salinan dari RAMU Tracking Automation" InputMode="Browse">
             <ugam:DriveItemArgument.ParentIdFullPathHint>
               <InArgument x:TypeArguments="x:String">
                 <Literal x:TypeArguments="x:String" Value="" />
@@ -246,7 +247,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </uga:ReadRangeConnections>
-      <uga:ReadRangeConnections x:TypeArguments="sd2:DataTable11" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="ADI (03/12/2025): add extract sheet for payment" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari DUMMY ADMIN - PAYMENT TRACKER RAMU 2025" BrowserItemId="https://docs.google.com/spreadsheets/d/1larwUQ4Qdzmk7zXOes5QQpzc-PgBLXa4SOdS7X4Doak/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU Payment" HasHeaders="True" sap:VirtualizedContainerService.HintSize="512,321" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_3" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[dtPayment]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd2:DataTable11" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari DUMMY ADMIN - PAYMENT TRACKER RAMU 2025" BrowserItemId="https://docs.google.com/spreadsheets/d/1larwUQ4Qdzmk7zXOes5QQpzc-PgBLXa4SOdS7X4Doak/edit?usp=drivesdk" ConnectionId="83fae671-05da-4ea7-81c3-f19072708174" DisplayName="Read Range RAMU Payment" HasHeaders="True" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_3" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtPayment]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>No</x:String>
@@ -282,7 +283,7 @@
           </usau:BackupSlot>
         </uga:ReadRangeConnections.FileIdBackup>
         <uga:ReadRangeConnections.Item>
-          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID1}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1larwUQ4Qdzmk7zXOes5QQpzc-PgBLXa4SOdS7X4Doak/edit?usp=drivesdk" ConnectionKey="05a538ec-b943-4857-9ecf-1bcbf09b9588" FriendlyName="Salinan dari DUMMY ADMIN - PAYMENT TRACKER RAMU 2025" FullPathHint="My Drive/Salinan dari DUMMY ADMIN - PAYMENT TRACKER RAMU 2025" InputMode="Browse">
+          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID1}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1larwUQ4Qdzmk7zXOes5QQpzc-PgBLXa4SOdS7X4Doak/edit?usp=drivesdk" ConnectionKey="83fae671-05da-4ea7-81c3-f19072708174" FriendlyName="Salinan dari DUMMY ADMIN - PAYMENT TRACKER RAMU 2025" FullPathHint="Salinan dari DUMMY ADMIN - PAYMENT TRACKER RAMU 2025" InputMode="Browse">
             <ugam:DriveItemArgument.ParentIdFullPathHint>
               <InArgument x:TypeArguments="x:String">
                 <Literal x:TypeArguments="x:String" Value="" />
@@ -293,13 +294,8 @@
         <uga:ReadRangeConnections.RangeMetadata>
           <ugsm:RangeMetadataSlim ColumnStart="1" RangeType="Range" />
         </uga:ReadRangeConnections.RangeMetadata>
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
       </uga:ReadRangeConnections>
-      <uga:ReadRangeConnections x:TypeArguments="sd3:DataTable10" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari RAMU Tracking Automation" BrowserItemId="https://docs.google.com/spreadsheets/d/1yyKVpHcikcqGM9WKBsvaPQlZI-SJR_WR0iHYTJ_h_p0/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU KOL Number" HasHeaders="True" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_2" ItemSelectionMode="Browse" Range="KOL" ReadAs="Values" Result="[out_dtKolNumber]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd3:DataTable10" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari RAMU Tracking Automation" BrowserItemId="https://docs.google.com/spreadsheets/d/1yyKVpHcikcqGM9WKBsvaPQlZI-SJR_WR0iHYTJ_h_p0/edit?usp=drivesdk" ConnectionId="83fae671-05da-4ea7-81c3-f19072708174" DisplayName="Read Range RAMU KOL Number" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,329.3333333333333" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_2" ItemSelectionMode="Browse" Range="KOL" ReadAs="Values" Result="[out_dtKolNumber]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>No</x:String>
@@ -321,7 +317,7 @@
           </usau:BackupSlot>
         </uga:ReadRangeConnections.FileIdBackup>
         <uga:ReadRangeConnections.Item>
-          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID2}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1yyKVpHcikcqGM9WKBsvaPQlZI-SJR_WR0iHYTJ_h_p0/edit?usp=drivesdk" ConnectionKey="05a538ec-b943-4857-9ecf-1bcbf09b9588" FriendlyName="Salinan dari RAMU Tracking Automation" FullPathHint="My Drive/Salinan dari RAMU Tracking Automation" InputMode="Browse">
+          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID2}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1yyKVpHcikcqGM9WKBsvaPQlZI-SJR_WR0iHYTJ_h_p0/edit?usp=drivesdk" ConnectionKey="83fae671-05da-4ea7-81c3-f19072708174" FriendlyName="Salinan dari RAMU Tracking Automation" FullPathHint="Salinan dari RAMU Tracking Automation" InputMode="Browse">
             <ugam:DriveItemArgument.ParentIdFullPathHint>
               <InArgument x:TypeArguments="x:String">
                 <Literal x:TypeArguments="x:String" Value="" />
@@ -338,114 +334,125 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </uga:ReadRangeConnections>
-      <Sequence sap2010:Annotation.AnnotationText="Hanya Memasukan Batch Bulan ini dan Bulan Sebelumnya&#xA;ADI (13/10/2025): memindahkan filter batch ke sheet extraction agar optimal&#xA;ADI (03/12/2025): menambahkan filter batch sheet payment" DisplayName="Filter Batch" sap:VirtualizedContainerService.HintSize="512,714" sap2010:WorkflowViewState.IdRef="Sequence_3">
-        <Sequence.Variables>
-          <Variable x:TypeArguments="x:String" Name="strCurrentMonth" />
-          <Variable x:TypeArguments="x:String" Name="strLastMonth" />
-        </Sequence.Variables>
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-            <x:Boolean x:Key="IsPinned">False</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-        <ui:MultipleAssign DisplayName="Multiple Assign Month" sap:VirtualizedContainerService.HintSize="478,180" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
-          <ui:MultipleAssign.AssignOperations>
-            <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
-              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
-                <ui:AssignOperation.To>
-                  <OutArgument x:TypeArguments="x:String">[strCurrentMonth]</OutArgument>
-                </ui:AssignOperation.To>
-                <ui:AssignOperation.Value>
-                  <InArgument x:TypeArguments="x:String">[DateTime.Now.ToString("MMMM", New Globalization.CultureInfo("id-ID"))]</InArgument>
-                </ui:AssignOperation.Value>
-              </ui:AssignOperation>
-              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
-                <ui:AssignOperation.To>
-                  <OutArgument x:TypeArguments="x:String">[strLastMonth]</OutArgument>
-                </ui:AssignOperation.To>
-                <ui:AssignOperation.Value>
-                  <InArgument x:TypeArguments="x:String">[DateTime.Now.AddMonths(-1).ToString("MMMM", New Globalization.CultureInfo("id-ID"))]</InArgument>
-                </ui:AssignOperation.Value>
-              </ui:AssignOperation>
-            </scg:List>
-          </ui:MultipleAssign.AssignOperations>
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </ui:MultipleAssign>
-        <ui:FilterDataTable DataTable="[dtRamu]" DisplayName="Filter Data Table - Batch Filtering" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="478,195" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[out_dtRamu]" SelectColumnsMode="Remove">
-          <ui:FilterDataTable.Filters>
-            <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
-              <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
-                <ui:FilterOperationArgument.Column>
-                  <InArgument x:TypeArguments="x:String">["Batch"]</InArgument>
-                </ui:FilterOperationArgument.Column>
-                <ui:FilterOperationArgument.Operand>
-                  <InArgument x:TypeArguments="x:String">[strCurrentMonth]</InArgument>
-                </ui:FilterOperationArgument.Operand>
-              </ui:FilterOperationArgument>
-              <ui:FilterOperationArgument BooleanOperator="Or" Operator="EQ">
-                <ui:FilterOperationArgument.Column>
-                  <InArgument x:TypeArguments="x:String">["Batch"]</InArgument>
-                </ui:FilterOperationArgument.Column>
-                <ui:FilterOperationArgument.Operand>
-                  <InArgument x:TypeArguments="x:String">[strLastMonth]</InArgument>
-                </ui:FilterOperationArgument.Operand>
-              </ui:FilterOperationArgument>
-            </scg:List>
-          </ui:FilterDataTable.Filters>
-          <ui:FilterDataTable.SelectColumns>
-            <scg:List x:TypeArguments="InArgument" Capacity="4">
-              <x:Null />
-            </scg:List>
-          </ui:FilterDataTable.SelectColumns>
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </ui:FilterDataTable>
-        <ui:FilterDataTable DataTable="[dtPayment]" DisplayName="Filter Data Table - Batch Filtering" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="478,186" sap2010:WorkflowViewState.IdRef="FilterDataTable_2" OutputDataTable="[out_dtPayment]" SelectColumnsMode="Remove">
-          <ui:FilterDataTable.Filters>
-            <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
-              <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
-                <ui:FilterOperationArgument.Column>
-                  <InArgument x:TypeArguments="x:String">["Batch"]</InArgument>
-                </ui:FilterOperationArgument.Column>
-                <ui:FilterOperationArgument.Operand>
-                  <InArgument x:TypeArguments="x:String">[strCurrentMonth]</InArgument>
-                </ui:FilterOperationArgument.Operand>
-              </ui:FilterOperationArgument>
-              <ui:FilterOperationArgument BooleanOperator="Or" Operator="EQ">
-                <ui:FilterOperationArgument.Column>
-                  <InArgument x:TypeArguments="x:String">["Batch"]</InArgument>
-                </ui:FilterOperationArgument.Column>
-                <ui:FilterOperationArgument.Operand>
-                  <InArgument x:TypeArguments="x:String">[strLastMonth]</InArgument>
-                </ui:FilterOperationArgument.Operand>
-              </ui:FilterOperationArgument>
-            </scg:List>
-          </ui:FilterDataTable.Filters>
-          <ui:FilterDataTable.SelectColumns>
-            <scg:List x:TypeArguments="InArgument" Capacity="4">
-              <x:Null />
-            </scg:List>
-          </ui:FilterDataTable.SelectColumns>
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </ui:FilterDataTable>
-      </Sequence>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="512,166" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Google sheet extracted&quot;]" />
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="583.3333333333334,878.6666666666666" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="546.6666666666666,766.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence sap2010:Annotation.AnnotationText="Hanya Memasukan Batch Bulan ini dan Bulan Sebelumnya&#xA;ADI (13/10/2025): memindahkan filter batch ke sheet extraction agar optimal&#xA;ADI (03/12/2025): menambahkan filter batch sheet payment" DisplayName="Filter Batch" sap:VirtualizedContainerService.HintSize="512.6666666666666,706.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="strCurrentMonth" />
+                <Variable x:TypeArguments="x:String" Name="strLastMonth" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:MultipleAssign DisplayName="Multiple Assign Month" sap:VirtualizedContainerService.HintSize="478.6666666666667,180" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+                <ui:MultipleAssign.AssignOperations>
+                  <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[strCurrentMonth]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">[DateTime.Now.ToString("MMMM", New Globalization.CultureInfo("id-ID"))]</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[strLastMonth]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">[DateTime.Now.AddMonths(-1).ToString("MMMM", New Globalization.CultureInfo("id-ID"))]</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                  </scg:List>
+                </ui:MultipleAssign.AssignOperations>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:MultipleAssign>
+              <ui:FilterDataTable DataTable="[dtRamu]" DisplayName="Filter Data Table - Batch Filtering" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="478.6666666666667,196" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[out_dtRamu]" SelectColumnsMode="Remove">
+                <ui:FilterDataTable.Filters>
+                  <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                    <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+                      <ui:FilterOperationArgument.Column>
+                        <InArgument x:TypeArguments="x:String">["Batch"]</InArgument>
+                      </ui:FilterOperationArgument.Column>
+                      <ui:FilterOperationArgument.Operand>
+                        <InArgument x:TypeArguments="x:String">[strCurrentMonth]</InArgument>
+                      </ui:FilterOperationArgument.Operand>
+                    </ui:FilterOperationArgument>
+                    <ui:FilterOperationArgument BooleanOperator="Or" Operator="EQ">
+                      <ui:FilterOperationArgument.Column>
+                        <InArgument x:TypeArguments="x:String">["Batch"]</InArgument>
+                      </ui:FilterOperationArgument.Column>
+                      <ui:FilterOperationArgument.Operand>
+                        <InArgument x:TypeArguments="x:String">[strLastMonth]</InArgument>
+                      </ui:FilterOperationArgument.Operand>
+                    </ui:FilterOperationArgument>
+                  </scg:List>
+                </ui:FilterDataTable.Filters>
+                <ui:FilterDataTable.SelectColumns>
+                  <scg:List x:TypeArguments="InArgument" Capacity="4">
+                    <x:Null />
+                  </scg:List>
+                </ui:FilterDataTable.SelectColumns>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:FilterDataTable>
+              <ui:FilterDataTable DataTable="[dtPayment]" DisplayName="Filter Data Table - Batch Filtering" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="478.6666666666667,186.66666666666666" sap2010:WorkflowViewState.IdRef="FilterDataTable_2" OutputDataTable="[out_dtPayment]" SelectColumnsMode="Remove">
+                <ui:FilterDataTable.Filters>
+                  <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                    <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+                      <ui:FilterOperationArgument.Column>
+                        <InArgument x:TypeArguments="x:String">["Batch"]</InArgument>
+                      </ui:FilterOperationArgument.Column>
+                      <ui:FilterOperationArgument.Operand>
+                        <InArgument x:TypeArguments="x:String">[strCurrentMonth]</InArgument>
+                      </ui:FilterOperationArgument.Operand>
+                    </ui:FilterOperationArgument>
+                    <ui:FilterOperationArgument BooleanOperator="Or" Operator="EQ">
+                      <ui:FilterOperationArgument.Column>
+                        <InArgument x:TypeArguments="x:String">["Batch"]</InArgument>
+                      </ui:FilterOperationArgument.Column>
+                      <ui:FilterOperationArgument.Operand>
+                        <InArgument x:TypeArguments="x:String">[strLastMonth]</InArgument>
+                      </ui:FilterOperationArgument.Operand>
+                    </ui:FilterOperationArgument>
+                  </scg:List>
+                </ui:FilterDataTable.Filters>
+                <ui:FilterDataTable.SelectColumns>
+                  <scg:List x:TypeArguments="InArgument" Capacity="4">
+                    <x:Null />
+                  </scg:List>
+                </ui:FilterDataTable.SelectColumns>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:FilterDataTable>
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+      </ui:CommentOut>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="583.3333333333334,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Google sheet extracted&quot;]" />
     </Sequence>
   </Sequence>
 </Activity>

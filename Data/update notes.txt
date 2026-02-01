@@ -1,5 +1,6 @@
-payment -> kirim ke brand
-posting -> tentative(optional)
-batch gausah dibaca
-posting h-1 bukan hari h
-payment h-1 bukan hari h
+payment -> kirim ke brand -> done
+posting -> tentative(optional) -> nunggu nama header 
+batch gausah dibaca -> done
+posting h-1 bukan hari h -> done
+payment h-1 bukan hari h -> done
+fixing config data -> tunggu wording format config aen
