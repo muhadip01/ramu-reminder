@@ -187,7 +187,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:MultipleAssign>
-      <uga:ReadRangeConnections x:TypeArguments="sd1:DataTable13" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari RAMU Tracking Automation" BrowserItemId="https://docs.google.com/spreadsheets/d/1yyKVpHcikcqGM9WKBsvaPQlZI-SJR_WR0iHYTJ_h_p0/edit?usp=drivesdk" ConnectionId="83fae671-05da-4ea7-81c3-f19072708174" DisplayName="Read Range RAMU Dashboard" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,329.3333333333333" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_1" ItemSelectionMode="Browse" Range="'Progress Brand Deals'" ReadAs="Values" Result="[out_dtRamu]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd1:DataTable13" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="2026 OPS - PROJECT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1kUQRixzq0sGAXuaWr2kF5nSfDWBBeg_sb1gCFjijjdk/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU Dashboard" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,329.3333333333333" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_1" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtRamu]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>No</x:String>
@@ -204,16 +204,16 @@
             <x:String>Jam Visit</x:String>
             <x:String>Lokasi</x:String>
             <x:String>GMAPS</x:String>
-            <x:String>Notes</x:String>
+            <x:String>Notes (Jika Ada Request)</x:String>
             <x:String>Outfit</x:String>
             <x:String>Storyline</x:String>
             <x:String>Storyline Link</x:String>
-            <x:String>Drafting</x:String>
-            <x:String>Posting</x:String>
-            <x:String>Progress Check</x:String>
+            <x:String>Deadline Drafting</x:String>
+            <x:String>Posting Schedule</x:String>
+            <x:String>Progress Check (Kondisi)</x:String>
             <x:String>Done</x:String>
-            <x:String>Reporting</x:String>
-            <x:String>Remind Post</x:String>
+            <x:String>Reporting Link</x:String>
+            <x:String>Remind Post (Checklist Ketika Butuh Diremind)</x:String>
           </x:Array>
         </uga:ReadRangeConnections.ColumnNames>
         <uga:ReadRangeConnections.FileIdBackup>
@@ -230,7 +230,7 @@
           </usau:BackupSlot>
         </uga:ReadRangeConnections.FileIdBackup>
         <uga:ReadRangeConnections.Item>
-          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID0}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1yyKVpHcikcqGM9WKBsvaPQlZI-SJR_WR0iHYTJ_h_p0/edit?usp=drivesdk" ConnectionKey="83fae671-05da-4ea7-81c3-f19072708174" FriendlyName="Salinan dari RAMU Tracking Automation" FullPathHint="Salinan dari RAMU Tracking Automation" InputMode="Browse">
+          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID0}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1kUQRixzq0sGAXuaWr2kF5nSfDWBBeg_sb1gCFjijjdk/edit?usp=drivesdk" ConnectionKey="05a538ec-b943-4857-9ecf-1bcbf09b9588" FriendlyName="2026 OPS - PROJECT TRACKER RAMU" FullPathHint="2026 OPS - PROJECT TRACKER RAMU" InputMode="Browse">
             <ugam:DriveItemArgument.ParentIdFullPathHint>
               <InArgument x:TypeArguments="x:String">
                 <Literal x:TypeArguments="x:String" Value="" />
@@ -247,7 +247,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </uga:ReadRangeConnections>
-      <uga:ReadRangeConnections x:TypeArguments="sd2:DataTable11" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari DUMMY ADMIN - PAYMENT TRACKER RAMU 2025" BrowserItemId="https://docs.google.com/spreadsheets/d/1larwUQ4Qdzmk7zXOes5QQpzc-PgBLXa4SOdS7X4Doak/edit?usp=drivesdk" ConnectionId="83fae671-05da-4ea7-81c3-f19072708174" DisplayName="Read Range RAMU Payment" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,298.6666666666667" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_3" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtPayment]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd2:DataTable11" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="2026 ADMIN - PAYMENT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1IohnXDYFd3TxtO61lxbVth4JZhjQFjJAH48Vx4F3tqg/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU Payment" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,298.6666666666667" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_3" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtPayment]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>No</x:String>
@@ -259,14 +259,15 @@
             <x:String>KOL Name</x:String>
             <x:String>Status KOL</x:String>
             <x:String>SOW</x:String>
+            <x:String>Brief</x:String>
             <x:String>Nominal Project</x:String>
             <x:String>Tanggal DP</x:String>
             <x:String>Nominal DP</x:String>
             <x:String>Done DP</x:String>
             <x:String>Nominal Final Payment</x:String>
             <x:String>Tanggal Final Payment</x:String>
-            <x:String>Done Final Payment</x:String>
-            <x:String>Bukti Transfer (Link File Gdrive)</x:String>
+            <x:String>Done FP</x:String>
+            <x:String>Bukti TF</x:String>
           </x:Array>
         </uga:ReadRangeConnections.ColumnNames>
         <uga:ReadRangeConnections.FileIdBackup>
@@ -283,7 +284,7 @@
           </usau:BackupSlot>
         </uga:ReadRangeConnections.FileIdBackup>
         <uga:ReadRangeConnections.Item>
-          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID1}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1larwUQ4Qdzmk7zXOes5QQpzc-PgBLXa4SOdS7X4Doak/edit?usp=drivesdk" ConnectionKey="83fae671-05da-4ea7-81c3-f19072708174" FriendlyName="Salinan dari DUMMY ADMIN - PAYMENT TRACKER RAMU 2025" FullPathHint="Salinan dari DUMMY ADMIN - PAYMENT TRACKER RAMU 2025" InputMode="Browse">
+          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID1}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1IohnXDYFd3TxtO61lxbVth4JZhjQFjJAH48Vx4F3tqg/edit?usp=drivesdk" ConnectionKey="05a538ec-b943-4857-9ecf-1bcbf09b9588" FriendlyName="2026 ADMIN - PAYMENT TRACKER RAMU" FullPathHint="2026 ADMIN - PAYMENT TRACKER RAMU" InputMode="Browse">
             <ugam:DriveItemArgument.ParentIdFullPathHint>
               <InArgument x:TypeArguments="x:String">
                 <Literal x:TypeArguments="x:String" Value="" />
@@ -295,12 +296,33 @@
           <ugsm:RangeMetadataSlim ColumnStart="1" RangeType="Range" />
         </uga:ReadRangeConnections.RangeMetadata>
       </uga:ReadRangeConnections>
-      <uga:ReadRangeConnections x:TypeArguments="sd3:DataTable10" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari RAMU Tracking Automation" BrowserItemId="https://docs.google.com/spreadsheets/d/1yyKVpHcikcqGM9WKBsvaPQlZI-SJR_WR0iHYTJ_h_p0/edit?usp=drivesdk" ConnectionId="83fae671-05da-4ea7-81c3-f19072708174" DisplayName="Read Range RAMU KOL Number" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,329.3333333333333" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_2" ItemSelectionMode="Browse" Range="KOL" ReadAs="Values" Result="[out_dtKolNumber]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd3:DataTable10" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="2026 OPS - PROJECT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1kUQRixzq0sGAXuaWr2kF5nSfDWBBeg_sb1gCFjijjdk/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU KOL Number" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,329.3333333333333" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_2" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtKolNumber]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>No</x:String>
-            <x:String>Name</x:String>
-            <x:String>Phone Number</x:String>
+            <x:String>Batch</x:String>
+            <x:String>Brand</x:String>
+            <x:String>PIC Brand</x:String>
+            <x:String>Brand Number</x:String>
+            <x:String>Handled By</x:String>
+            <x:String>KOL Name</x:String>
+            <x:String>Status KOL</x:String>
+            <x:String>SOW</x:String>
+            <x:String>Brief</x:String>
+            <x:String>Tanggal Visit</x:String>
+            <x:String>Jam Visit</x:String>
+            <x:String>Lokasi</x:String>
+            <x:String>GMAPS</x:String>
+            <x:String>Notes (Jika Ada Request)</x:String>
+            <x:String>Outfit</x:String>
+            <x:String>Storyline</x:String>
+            <x:String>Storyline Link</x:String>
+            <x:String>Deadline Drafting</x:String>
+            <x:String>Posting Schedule</x:String>
+            <x:String>Progress Check (Kondisi)</x:String>
+            <x:String>Done</x:String>
+            <x:String>Reporting Link</x:String>
+            <x:String>Remind Post (Checklist Ketika Butuh Diremind)</x:String>
           </x:Array>
         </uga:ReadRangeConnections.ColumnNames>
         <uga:ReadRangeConnections.FileIdBackup>
@@ -317,7 +339,7 @@
           </usau:BackupSlot>
         </uga:ReadRangeConnections.FileIdBackup>
         <uga:ReadRangeConnections.Item>
-          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID2}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1yyKVpHcikcqGM9WKBsvaPQlZI-SJR_WR0iHYTJ_h_p0/edit?usp=drivesdk" ConnectionKey="83fae671-05da-4ea7-81c3-f19072708174" FriendlyName="Salinan dari RAMU Tracking Automation" FullPathHint="Salinan dari RAMU Tracking Automation" InputMode="Browse">
+          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID2}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1kUQRixzq0sGAXuaWr2kF5nSfDWBBeg_sb1gCFjijjdk/edit?usp=drivesdk" ConnectionKey="05a538ec-b943-4857-9ecf-1bcbf09b9588" FriendlyName="2026 OPS - PROJECT TRACKER RAMU" FullPathHint="2026 OPS - PROJECT TRACKER RAMU" InputMode="Browse">
             <ugam:DriveItemArgument.ParentIdFullPathHint>
               <InArgument x:TypeArguments="x:String">
                 <Literal x:TypeArguments="x:String" Value="" />
