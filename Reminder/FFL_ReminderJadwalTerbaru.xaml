@@ -483,7 +483,7 @@
                           </Sequence>
                         </If.Else>
                       </If>
-                      <If Condition="[Not IsDBNull(CurrentRow(&quot;Deadline Drafting&quot;)) AndAlso&#xD;&#xA;Not String.IsNullOrWhiteSpace(CurrentRow(&quot;Deadline Drafting&quot;).ToString) AndAlso&#xD;&#xA;DateTime.Parse(CurrentRow(&quot;Deadline Drafting&quot;).ToString) &gt;= DateTime.Today AndAlso&#xD;&#xA;DateTime.Parse(CurrentRow(&quot;Deadline Drafting&quot;).ToString) &lt; DateTime.Today.AddDays(7)]" DisplayName="If Drafting &gt; 7" sap:VirtualizedContainerService.HintSize="548.6666666666666,1006.6666666666666" sap2010:WorkflowViewState.IdRef="If_3">
+                      <If Condition="[Not IsDBNull(CurrentRow(&quot;Deadline Drafting&quot;)) AndAlso&#xA;Not String.IsNullOrWhiteSpace(CurrentRow(&quot;Deadline Drafting&quot;).ToString) AndAlso&#xA;DateTime.Parse(CurrentRow(&quot;Deadline Drafting&quot;).ToString) &gt;= DateTime.Today AndAlso&#xA;DateTime.Parse(CurrentRow(&quot;Deadline Drafting&quot;).ToString) &lt; DateTime.Today.AddDays(7)]" DisplayName="If Drafting &gt; 7" sap:VirtualizedContainerService.HintSize="548.6666666666666,1006.6666666666666" sap2010:WorkflowViewState.IdRef="If_3">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -546,7 +546,7 @@
                                       </ui:AssignOperation.To>
                                       <ui:AssignOperation.Value>
                                         <InArgument x:TypeArguments="x:Object" xml:space="preserve">[DateTime.ParseExact(
-   CurrentRow("Drafting").ToString,
+   CurrentRow("Deadline Drafting").ToString,
     "dddd, MMMM dd, yyyy",
     System.Globalization.CultureInfo.InvariantCulture
 )]</InArgument>
@@ -582,7 +582,7 @@
                           </Sequence>
                         </If.Else>
                       </If>
-                      <If Condition="[Not IsDBNull(CurrentRow(&quot;Posting Schedule&quot;)) AndAlso&#xD;&#xA;Not String.IsNullOrWhiteSpace(CurrentRow(&quot;Posting Schedule&quot;).ToString) AndAlso&#xD;&#xA;DateTime.Parse(CurrentRow(&quot;Posting Schedule&quot;).ToString) &gt;= DateTime.Today AndAlso&#xD;&#xA;DateTime.Parse(CurrentRow(&quot;Posting Schedule&quot;).ToString) &lt; DateTime.Today.AddDays(7)]" DisplayName="If Posting &gt; 7" sap:VirtualizedContainerService.HintSize="548.6666666666666,997.3333333333334" sap2010:WorkflowViewState.IdRef="If_4">
+                      <If Condition="[Not IsDBNull(CurrentRow(&quot;Posting Schedule&quot;)) AndAlso&#xA;Not String.IsNullOrWhiteSpace(CurrentRow(&quot;Posting Schedule&quot;).ToString) AndAlso&#xA;DateTime.Parse(CurrentRow(&quot;Posting Schedule&quot;).ToString) &gt;= DateTime.Today AndAlso&#xA;DateTime.Parse(CurrentRow(&quot;Posting Schedule&quot;).ToString) &lt; DateTime.Today.AddDays(7)]" DisplayName="If Posting &gt; 7" sap:VirtualizedContainerService.HintSize="548.6666666666666,997.3333333333334" sap2010:WorkflowViewState.IdRef="If_4">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -645,7 +645,7 @@
                                       </ui:AssignOperation.To>
                                       <ui:AssignOperation.Value>
                                         <InArgument x:TypeArguments="x:Object" xml:space="preserve">[DateTime.ParseExact(
-   CurrentRow("Posting").ToString,
+   CurrentRow("Posting Schedule").ToString,
     "dddd, MMMM dd, yyyy",
     System.Globalization.CultureInfo.InvariantCulture
 )]</InArgument>
