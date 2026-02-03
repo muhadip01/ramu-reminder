@@ -344,7 +344,7 @@
             <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
               <ui:FilterOperationArgument Operand="{x:Null}" BooleanOperator="And" Operator="NOTEMPTY">
                 <ui:FilterOperationArgument.Column>
-                  <InArgument x:TypeArguments="x:String">["Drafting"]</InArgument>
+                  <InArgument x:TypeArguments="x:String">["Deadline Drafting"]</InArgument>
                 </ui:FilterOperationArgument.Column>
               </ui:FilterOperationArgument>
             </scg:List>
@@ -436,7 +436,7 @@
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <If Condition="[Not IsDBNull(CurrentRow(&quot;Drafting&quot;)) AndAlso&#xA;Not String.IsNullOrWhiteSpace(CurrentRow(&quot;Drafting&quot;).ToString) AndAlso&#xA;DateTime.Parse(CurrentRow(&quot;Drafting&quot;).ToString) = DateTime.Today.AddDays(1)]" sap:VirtualizedContainerService.HintSize="548.6666666666666,997.3333333333334" sap2010:WorkflowViewState.IdRef="If_1">
+                      <If Condition="[Not IsDBNull(CurrentRow(&quot;Deadline Drafting&quot;)) AndAlso&#xD;&#xA;Not String.IsNullOrWhiteSpace(CurrentRow(&quot;Deadline Drafting&quot;).ToString) AndAlso&#xD;&#xA;DateTime.Parse(CurrentRow(&quot;Deadline Drafting&quot;).ToString) = DateTime.Today.AddDays(1)]" sap:VirtualizedContainerService.HintSize="548.6666666666666,997.3333333333334" sap2010:WorkflowViewState.IdRef="If_1">
                         <If.Then>
                           <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="546.6666666666666,768" sap2010:WorkflowViewState.IdRef="Sequence_8">
                             <sap:WorkflowViewStateService.ViewState>
@@ -474,7 +474,7 @@
                                         <OutArgument x:TypeArguments="x:Object">[rowNew("Tanggal")]</OutArgument>
                                       </ui:AssignOperation.To>
                                       <ui:AssignOperation.Value>
-                                        <InArgument x:TypeArguments="x:Object">[DateTime.Parse(CurrentRow("Drafting").ToString)]</InArgument>
+                                        <InArgument x:TypeArguments="x:Object">[DateTime.Parse(CurrentRow("Deadline Drafting").ToString)]</InArgument>
                                       </ui:AssignOperation.Value>
                                     </ui:AssignOperation>
                                     <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
@@ -612,7 +612,7 @@
                                     <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
                                       <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
                                         <ui:FilterOperationArgument.Column>
-                                          <InArgument x:TypeArguments="x:String">["Name"]</InArgument>
+                                          <InArgument x:TypeArguments="x:String">["Nama"]</InArgument>
                                         </ui:FilterOperationArgument.Column>
                                         <ui:FilterOperationArgument.Operand>
                                           <InArgument x:TypeArguments="x:String">[currentKOL]</InArgument>

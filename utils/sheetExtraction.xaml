@@ -130,7 +130,7 @@
       <AssemblyReference>Studio.Generated.TypedDataTable13</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="sheetExtraction" sap:VirtualizedContainerService.HintSize="638,2071.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="sheetExtraction" sap:VirtualizedContainerService.HintSize="638.6666666666666,2350" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtPayment" />
       <Variable x:TypeArguments="s:String[]" Name="formats" />
@@ -140,7 +140,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="617.3333333333334,2048.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="617.3333333333334,2327.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="ramuKolRange" />
         <Variable x:TypeArguments="x:String" Name="ramuProgressBrandRange" />
@@ -247,7 +247,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </uga:ReadRangeConnections>
-      <uga:ReadRangeConnections x:TypeArguments="sd2:DataTable11" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari DUMMY ADMIN - PAYMENT TRACKER RAMU 2025" BrowserItemId="https://docs.google.com/spreadsheets/d/1larwUQ4Qdzmk7zXOes5QQpzc-PgBLXa4SOdS7X4Doak/edit?usp=drivesdk" ConnectionId="83fae671-05da-4ea7-81c3-f19072708174" DisplayName="Read Range RAMU Payment" HasHeaders="True" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_3" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtPayment]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd2:DataTable11" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari DUMMY ADMIN - PAYMENT TRACKER RAMU 2025" BrowserItemId="https://docs.google.com/spreadsheets/d/1larwUQ4Qdzmk7zXOes5QQpzc-PgBLXa4SOdS7X4Doak/edit?usp=drivesdk" ConnectionId="83fae671-05da-4ea7-81c3-f19072708174" DisplayName="Read Range RAMU Payment" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,298.6666666666667" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_3" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtPayment]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>No</x:String>
