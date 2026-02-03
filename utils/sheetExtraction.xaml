@@ -130,7 +130,7 @@
       <AssemblyReference>Studio.Generated.TypedDataTable13</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="sheetExtraction" sap:VirtualizedContainerService.HintSize="638.6666666666666,2350" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="sheetExtraction" sap:VirtualizedContainerService.HintSize="638.6666666666666,2040.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtPayment" />
       <Variable x:TypeArguments="s:String[]" Name="formats" />
@@ -140,7 +140,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="617.3333333333334,2327.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="617.3333333333334,2018" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="ramuKolRange" />
         <Variable x:TypeArguments="x:String" Name="ramuProgressBrandRange" />
@@ -296,33 +296,12 @@
           <ugsm:RangeMetadataSlim ColumnStart="1" RangeType="Range" />
         </uga:ReadRangeConnections.RangeMetadata>
       </uga:ReadRangeConnections>
-      <uga:ReadRangeConnections x:TypeArguments="sd3:DataTable10" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="2026 OPS - PROJECT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1kUQRixzq0sGAXuaWr2kF5nSfDWBBeg_sb1gCFjijjdk/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU KOL Number" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,329.3333333333333" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_2" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtKolNumber]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd3:DataTable10" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="2026 OPS - PROJECT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1kUQRixzq0sGAXuaWr2kF5nSfDWBBeg_sb1gCFjijjdk/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU KOL Number" HasHeaders="True" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_2" ItemSelectionMode="Browse" Range="KOL" ReadAs="Values" Result="[out_dtKolNumber]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>No</x:String>
-            <x:String>Batch</x:String>
-            <x:String>Brand</x:String>
-            <x:String>PIC Brand</x:String>
-            <x:String>Brand Number</x:String>
-            <x:String>Handled By</x:String>
-            <x:String>KOL Name</x:String>
-            <x:String>Status KOL</x:String>
-            <x:String>SOW</x:String>
-            <x:String>Brief</x:String>
-            <x:String>Tanggal Visit</x:String>
-            <x:String>Jam Visit</x:String>
-            <x:String>Lokasi</x:String>
-            <x:String>GMAPS</x:String>
-            <x:String>Notes (Jika Ada Request)</x:String>
-            <x:String>Outfit</x:String>
-            <x:String>Storyline</x:String>
-            <x:String>Storyline Link</x:String>
-            <x:String>Deadline Drafting</x:String>
-            <x:String>Posting Schedule</x:String>
-            <x:String>Progress Check (Kondisi)</x:String>
-            <x:String>Done</x:String>
-            <x:String>Reporting Link</x:String>
-            <x:String>Remind Post (Checklist Ketika Butuh Diremind)</x:String>
+            <x:String>Nama</x:String>
+            <x:String>Phone Number</x:String>
           </x:Array>
         </uga:ReadRangeConnections.ColumnNames>
         <uga:ReadRangeConnections.FileIdBackup>

@@ -4130,7 +4130,7 @@
       "typedDataTableDto": {
         "id": 10,
         "idRef": "ReadRangeConnections`1_2",
-        "hash": "ReadRangeConnections`1_2|DataTable|LqqG7a0c7xrFGgWsqiSYaBXSToqhjmoIw3P4nq7nII",
+        "hash": "ReadRangeConnections`1_2|DataTable|edRX8BGXGmlhIGT75AzBt5rhRZ0Fe875HOSe8Wzv0",
         "dataType": "System.Data.DataTable, System.Data.Common",
         "columns": [
           {
@@ -4140,141 +4140,15 @@
             "category": "Simplified"
           },
           {
-            "columnName": "Batch",
+            "columnName": "Nama",
             "dataType": "System.String, System.Private.CoreLib",
-            "name": "Batch",
+            "name": "Nama",
             "category": "Simplified"
           },
           {
-            "columnName": "Brand",
+            "columnName": "Phone Number",
             "dataType": "System.String, System.Private.CoreLib",
-            "name": "Brand",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "PIC Brand",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "PIC Brand",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Brand Number",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Brand Number",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Handled By",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Handled By",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "KOL Name",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "KOL Name",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Status KOL",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Status KOL",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "SOW",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "SOW",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Brief",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Brief",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Tanggal Visit",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Tanggal Visit",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Jam Visit",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Jam Visit",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Lokasi",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Lokasi",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "GMAPS",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "GMAPS",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Notes (Jika Ada Request)",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Notes (Jika Ada Request)",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Outfit",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Outfit",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Storyline",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Storyline",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Storyline Link",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Storyline Link",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Deadline Drafting",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Deadline Drafting",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Posting Schedule",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Posting Schedule",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Progress Check (Kondisi)",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Progress Check (Kondisi)",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Done",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Done",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Reporting Link",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Reporting Link",
-            "category": "Simplified"
-          },
-          {
-            "columnName": "Remind Post (Checklist Ketika Butuh Diremind)",
-            "dataType": "System.String, System.Private.CoreLib",
-            "name": "Remind Post (Checklist Ketika Butuh Diremind)",
+            "name": "Phone Number",
             "category": "Simplified"
           }
         ],
@@ -4306,416 +4180,38 @@
             }
           },
           {
-            "parentColumnName": "Batch",
+            "parentColumnName": "Nama",
             "extension": {
               "columnName": "_Address",
               "dataType": "System.String, System.Private.CoreLib",
-              "name": "Batch Address",
+              "name": "Nama Address",
               "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
             }
           },
           {
-            "parentColumnName": "Batch",
+            "parentColumnName": "Nama",
             "extension": {
               "columnName": "_ColumnAddress",
               "dataType": "System.String, System.Private.CoreLib",
-              "name": "Batch ColumnAddress",
+              "name": "Nama ColumnAddress",
               "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
             }
           },
           {
-            "parentColumnName": "Brand",
+            "parentColumnName": "Phone Number",
             "extension": {
               "columnName": "_Address",
               "dataType": "System.String, System.Private.CoreLib",
-              "name": "Brand Address",
+              "name": "Phone Number Address",
               "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
             }
           },
           {
-            "parentColumnName": "Brand",
+            "parentColumnName": "Phone Number",
             "extension": {
               "columnName": "_ColumnAddress",
               "dataType": "System.String, System.Private.CoreLib",
-              "name": "Brand ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "PIC Brand",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "PIC Brand Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "PIC Brand",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "PIC Brand ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Brand Number",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Brand Number Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Brand Number",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Brand Number ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Handled By",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Handled By Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Handled By",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Handled By ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "KOL Name",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "KOL Name Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "KOL Name",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "KOL Name ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Status KOL",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Status KOL Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Status KOL",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Status KOL ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "SOW",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "SOW Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "SOW",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "SOW ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Brief",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Brief Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Brief",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Brief ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Tanggal Visit",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Tanggal Visit Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Tanggal Visit",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Tanggal Visit ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Jam Visit",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Jam Visit Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Jam Visit",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Jam Visit ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Lokasi",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Lokasi Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Lokasi",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Lokasi ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "GMAPS",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "GMAPS Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "GMAPS",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "GMAPS ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Notes (Jika Ada Request)",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Notes (Jika Ada Request) Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Notes (Jika Ada Request)",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Notes (Jika Ada Request) ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Outfit",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Outfit Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Outfit",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Outfit ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Storyline",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Storyline Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Storyline",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Storyline ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Storyline Link",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Storyline Link Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Storyline Link",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Storyline Link ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Deadline Drafting",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Deadline Drafting Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Deadline Drafting",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Deadline Drafting ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Posting Schedule",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Posting Schedule Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Posting Schedule",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Posting Schedule ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Progress Check (Kondisi)",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Progress Check (Kondisi) Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Progress Check (Kondisi)",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Progress Check (Kondisi) ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Done",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Done Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Done",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Done ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Reporting Link",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Reporting Link Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Reporting Link",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Reporting Link ColumnAddress",
-              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
-            }
-          },
-          {
-            "parentColumnName": "Remind Post (Checklist Ketika Butuh Diremind)",
-            "extension": {
-              "columnName": "_Address",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Remind Post (Checklist Ketika Butuh Diremind) Address",
-              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
-            }
-          },
-          {
-            "parentColumnName": "Remind Post (Checklist Ketika Butuh Diremind)",
-            "extension": {
-              "columnName": "_ColumnAddress",
-              "dataType": "System.String, System.Private.CoreLib",
-              "name": "Remind Post (Checklist Ketika Butuh Diremind) ColumnAddress",
+              "name": "Phone Number ColumnAddress",
               "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
             }
           }
@@ -4727,7 +4223,7 @@
       },
       "entityAssemblyKey": {
         "name": "Studio.Generated.TypedDataTable10",
-        "hash": "ReadRangeConnections`1_2|DataTable|BRhr6KiQMDm7Z3ZzNxietb9os9KdkH4bOSYOXvypwcA|M8QgJnMcDYq2DQeuuBU0Jk546eYbnq2FCcwUoYRi4Ss|HT8aFX0uTakdBZzx1gQ7QazRUYM25L1273kAdp3Xng",
+        "hash": "ReadRangeConnections`1_2|DataTable|zVY8HSCN1KbrkidrjEMWzSzAiJFq8aMhSi5zhk6D3s|M8QgJnMcDYq2DQeuuBU0Jk546eYbnq2FCcwUoYRi4Ss|HT8aFX0uTakdBZzx1gQ7QazRUYM25L1273kAdp3Xng",
         "assemblyName": "Studio.Generated.TypedDataTable10"
       }
     }
