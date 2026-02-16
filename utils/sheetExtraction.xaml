@@ -130,7 +130,7 @@
       <AssemblyReference>Studio.Generated.TypedDataTable13</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="sheetExtraction" sap:VirtualizedContainerService.HintSize="638.6666666666666,2040.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="sheetExtraction" sap:VirtualizedContainerService.HintSize="640.6666666666666,2350" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtPayment" />
       <Variable x:TypeArguments="s:String[]" Name="formats" />
@@ -140,7 +140,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="617.3333333333334,2018" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="617.3333333333334,2327.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="ramuKolRange" />
         <Variable x:TypeArguments="x:String" Name="ramuProgressBrandRange" />
@@ -187,7 +187,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:MultipleAssign>
-      <uga:ReadRangeConnections x:TypeArguments="sd1:DataTable13" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="2026 OPS - PROJECT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1kUQRixzq0sGAXuaWr2kF5nSfDWBBeg_sb1gCFjijjdk/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU Dashboard" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,329.3333333333333" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_1" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtRamu]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd1:DataTable13" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari 2026 OPS - PROJECT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1tRResnaL-e1RWrawXE8kKeVvJIBJtDmQJa846td_9-k/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU Dashboard" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,329.3333333333333" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_1" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtRamu]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>No</x:String>
@@ -230,7 +230,7 @@
           </usau:BackupSlot>
         </uga:ReadRangeConnections.FileIdBackup>
         <uga:ReadRangeConnections.Item>
-          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID0}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1kUQRixzq0sGAXuaWr2kF5nSfDWBBeg_sb1gCFjijjdk/edit?usp=drivesdk" ConnectionKey="05a538ec-b943-4857-9ecf-1bcbf09b9588" FriendlyName="2026 OPS - PROJECT TRACKER RAMU" FullPathHint="2026 OPS - PROJECT TRACKER RAMU" InputMode="Browse">
+          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID0}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1tRResnaL-e1RWrawXE8kKeVvJIBJtDmQJa846td_9-k/edit?usp=drivesdk" ConnectionKey="05a538ec-b943-4857-9ecf-1bcbf09b9588" FriendlyName="Salinan dari 2026 OPS - PROJECT TRACKER RAMU" FullPathHint="My Drive/Salinan dari 2026 OPS - PROJECT TRACKER RAMU" InputMode="Browse">
             <ugam:DriveItemArgument.ParentIdFullPathHint>
               <InArgument x:TypeArguments="x:String">
                 <Literal x:TypeArguments="x:String" Value="" />
@@ -247,7 +247,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </uga:ReadRangeConnections>
-      <uga:ReadRangeConnections x:TypeArguments="sd2:DataTable11" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="2026 ADMIN - PAYMENT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1IohnXDYFd3TxtO61lxbVth4JZhjQFjJAH48Vx4F3tqg/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU Payment" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,298.6666666666667" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_3" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtPayment]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd2:DataTable11" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari 2026 ADMIN - PAYMENT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1UQDEQ_7j5ENj8qJeHg_-mgutNX2UGKOjalQdwyFSbYE/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU Payment" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,298.6666666666667" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_3" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtPayment]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>No</x:String>
@@ -284,7 +284,7 @@
           </usau:BackupSlot>
         </uga:ReadRangeConnections.FileIdBackup>
         <uga:ReadRangeConnections.Item>
-          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID1}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1IohnXDYFd3TxtO61lxbVth4JZhjQFjJAH48Vx4F3tqg/edit?usp=drivesdk" ConnectionKey="05a538ec-b943-4857-9ecf-1bcbf09b9588" FriendlyName="2026 ADMIN - PAYMENT TRACKER RAMU" FullPathHint="2026 ADMIN - PAYMENT TRACKER RAMU" InputMode="Browse">
+          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID1}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1UQDEQ_7j5ENj8qJeHg_-mgutNX2UGKOjalQdwyFSbYE/edit?usp=drivesdk" ConnectionKey="05a538ec-b943-4857-9ecf-1bcbf09b9588" FriendlyName="Salinan dari 2026 ADMIN - PAYMENT TRACKER RAMU" FullPathHint="My Drive/Salinan dari 2026 ADMIN - PAYMENT TRACKER RAMU" InputMode="Browse">
             <ugam:DriveItemArgument.ParentIdFullPathHint>
               <InArgument x:TypeArguments="x:String">
                 <Literal x:TypeArguments="x:String" Value="" />
@@ -296,7 +296,7 @@
           <ugsm:RangeMetadataSlim ColumnStart="1" RangeType="Range" />
         </uga:ReadRangeConnections.RangeMetadata>
       </uga:ReadRangeConnections>
-      <uga:ReadRangeConnections x:TypeArguments="sd3:DataTable10" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="2026 OPS - PROJECT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1kUQRixzq0sGAXuaWr2kF5nSfDWBBeg_sb1gCFjijjdk/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU KOL Number" HasHeaders="True" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_2" ItemSelectionMode="Browse" Range="KOL" ReadAs="Values" Result="[out_dtKolNumber]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd3:DataTable10" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari 2026 OPS - PROJECT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1tRResnaL-e1RWrawXE8kKeVvJIBJtDmQJa846td_9-k/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU KOL Number" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,329.3333333333333" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_2" ItemSelectionMode="Browse" Range="KOL" ReadAs="Values" Result="[out_dtKolNumber]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>No</x:String>
@@ -318,7 +318,7 @@
           </usau:BackupSlot>
         </uga:ReadRangeConnections.FileIdBackup>
         <uga:ReadRangeConnections.Item>
-          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID2}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1kUQRixzq0sGAXuaWr2kF5nSfDWBBeg_sb1gCFjijjdk/edit?usp=drivesdk" ConnectionKey="05a538ec-b943-4857-9ecf-1bcbf09b9588" FriendlyName="2026 OPS - PROJECT TRACKER RAMU" FullPathHint="2026 OPS - PROJECT TRACKER RAMU" InputMode="Browse">
+          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID2}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1tRResnaL-e1RWrawXE8kKeVvJIBJtDmQJa846td_9-k/edit?usp=drivesdk" ConnectionKey="05a538ec-b943-4857-9ecf-1bcbf09b9588" FriendlyName="Salinan dari 2026 OPS - PROJECT TRACKER RAMU" FullPathHint="My Drive/Salinan dari 2026 OPS - PROJECT TRACKER RAMU" InputMode="Browse">
             <ugam:DriveItemArgument.ParentIdFullPathHint>
               <InArgument x:TypeArguments="x:String">
                 <Literal x:TypeArguments="x:String" Value="" />
