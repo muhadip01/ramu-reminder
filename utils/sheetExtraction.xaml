@@ -1,7 +1,7 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="sheetExtraction" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:sd1="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable13" xmlns:sd2="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable11" xmlns:sd3="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable10" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugade="clr-namespace:UiPath.GSuite.Activities.Drive.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugam="clr-namespace:UiPath.GSuite.Activities.Models;assembly=UiPath.GSuite.Activities" xmlns:ugsm="clr-namespace:UiPath.GSuite.Sheets.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="sheetExtraction" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:sd1="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable13" xmlns:sd2="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable11" xmlns:sd3="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable10" xmlns:sd4="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable14" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugade="clr-namespace:UiPath.GSuite.Activities.Drive.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugam="clr-namespace:UiPath.GSuite.Activities.Models;assembly=UiPath.GSuite.Activities" xmlns:ugsm="clr-namespace:UiPath.GSuite.Sheets.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
+    <x:Property Name="out_dtHandler" Type="OutArgument(sd:DataTable)" />
     <x:Property Name="out_dtPayment" Type="OutArgument(sd:DataTable)" />
-    <x:Property Name="in_dtConfig" Type="InArgument(scg:Dictionary(x:String, x:String))" />
     <x:Property Name="out_dtKolNumber" Type="OutArgument(sd:DataTable)" />
     <x:Property Name="out_dtRamu" Type="OutArgument(sd:DataTable)" />
   </x:Members>
@@ -128,9 +128,10 @@
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
       <AssemblyReference>Studio.Generated.TypedDataTable11</AssemblyReference>
       <AssemblyReference>Studio.Generated.TypedDataTable13</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable14</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="sheetExtraction" sap:VirtualizedContainerService.HintSize="640.6666666666666,2350" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="sheetExtraction" sap:VirtualizedContainerService.HintSize="640.6666666666666,1827.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtPayment" />
       <Variable x:TypeArguments="s:String[]" Name="formats" />
@@ -140,7 +141,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="617.3333333333334,2327.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="512.6666666666666,1804.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="ramuKolRange" />
         <Variable x:TypeArguments="x:String" Name="ramuProgressBrandRange" />
@@ -152,7 +153,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:MultipleAssign sap2010:Annotation.AnnotationText="Deploy Update - Need Update Sheet ID based on Env" DisplayName="Multiple Assign required testFirst variables" sap:VirtualizedContainerService.HintSize="583.3333333333334,241.33333333333334" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+      <ui:MultipleAssign sap2010:Annotation.AnnotationText="Deploy Update - Need Update Sheet ID based on Env" DisplayName="Multiple Assign required testFirst variables" sap:VirtualizedContainerService.HintSize="478.6666666666667,241.33333333333334" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
         <ui:MultipleAssign.AssignOperations>
           <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
             <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
@@ -187,7 +188,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:MultipleAssign>
-      <uga:ReadRangeConnections x:TypeArguments="sd1:DataTable13" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari 2026 OPS - PROJECT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1tRResnaL-e1RWrawXE8kKeVvJIBJtDmQJa846td_9-k/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU Dashboard" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,329.3333333333333" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_1" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtRamu]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd1:DataTable13" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari 2026 OPS - PROJECT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1tRResnaL-e1RWrawXE8kKeVvJIBJtDmQJa846td_9-k/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU Dashboard" HasHeaders="True" sap:VirtualizedContainerService.HintSize="478.6666666666667,329.3333333333333" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_1" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtRamu]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>No</x:String>
@@ -247,7 +248,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </uga:ReadRangeConnections>
-      <uga:ReadRangeConnections x:TypeArguments="sd2:DataTable11" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari 2026 ADMIN - PAYMENT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1UQDEQ_7j5ENj8qJeHg_-mgutNX2UGKOjalQdwyFSbYE/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU Payment" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,298.6666666666667" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_3" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtPayment]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd2:DataTable11" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari 2026 ADMIN - PAYMENT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1UQDEQ_7j5ENj8qJeHg_-mgutNX2UGKOjalQdwyFSbYE/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU Payment" HasHeaders="True" sap:VirtualizedContainerService.HintSize="478.6666666666667,298.6666666666667" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_3" ItemSelectionMode="Browse" Range="'Functional Database 1.0'" ReadAs="Values" Result="[out_dtPayment]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>No</x:String>
@@ -296,7 +297,7 @@
           <ugsm:RangeMetadataSlim ColumnStart="1" RangeType="Range" />
         </uga:ReadRangeConnections.RangeMetadata>
       </uga:ReadRangeConnections>
-      <uga:ReadRangeConnections x:TypeArguments="sd3:DataTable10" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari 2026 OPS - PROJECT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1tRResnaL-e1RWrawXE8kKeVvJIBJtDmQJa846td_9-k/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU KOL Number" HasHeaders="True" sap:VirtualizedContainerService.HintSize="583.3333333333334,329.3333333333333" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_2" ItemSelectionMode="Browse" Range="KOL" ReadAs="Values" Result="[out_dtKolNumber]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd3:DataTable10" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" sap2010:Annotation.AnnotationText="DEPLOY UPDATE - Need Update Based on PC ENV" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari 2026 OPS - PROJECT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1tRResnaL-e1RWrawXE8kKeVvJIBJtDmQJa846td_9-k/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range RAMU KOL Number" HasHeaders="True" sap:VirtualizedContainerService.HintSize="478.6666666666667,329.3333333333333" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_2" ItemSelectionMode="Browse" Range="KOL" ReadAs="Values" Result="[out_dtKolNumber]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>No</x:String>
@@ -335,7 +336,34 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </uga:ReadRangeConnections>
-      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="583.3333333333334,878.6666666666666" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <uga:ReadRangeConnections x:TypeArguments="sd4:DataTable14" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Salinan dari 2026 OPS - PROJECT TRACKER RAMU" BrowserItemId="https://docs.google.com/spreadsheets/d/1tRResnaL-e1RWrawXE8kKeVvJIBJtDmQJa846td_9-k/edit?usp=drivesdk" ConnectionId="05a538ec-b943-4857-9ecf-1bcbf09b9588" DisplayName="Read Range Payment Handler" HasHeaders="True" sap:VirtualizedContainerService.HintSize="478.6666666666667,298.6666666666667" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_4" ItemSelectionMode="Browse" Range="Handler" ReadAs="Values" Result="[out_dtHandler]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+        <uga:ReadRangeConnections.ColumnNames>
+          <x:Array Type="x:String">
+            <x:String>Nama</x:String>
+            <x:String>Number</x:String>
+          </x:Array>
+        </uga:ReadRangeConnections.ColumnNames>
+        <uga:ReadRangeConnections.FileIdBackup>
+          <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID3" StoredValue="Browse">
+            <usau:BackupSlot.BackupValues>
+              <scg:Dictionary x:TypeArguments="ugade:EDriveItemMode, scg:List(x:Object)" />
+            </usau:BackupSlot.BackupValues>
+          </usau:BackupSlot>
+        </uga:ReadRangeConnections.FileIdBackup>
+        <uga:ReadRangeConnections.Item>
+          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID3}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/1tRResnaL-e1RWrawXE8kKeVvJIBJtDmQJa846td_9-k/edit?usp=drivesdk" ConnectionKey="05a538ec-b943-4857-9ecf-1bcbf09b9588" FriendlyName="Salinan dari 2026 OPS - PROJECT TRACKER RAMU" FullPathHint="My Drive/Salinan dari 2026 OPS - PROJECT TRACKER RAMU" InputMode="Browse">
+            <ugam:DriveItemArgument.ParentIdFullPathHint>
+              <InArgument x:TypeArguments="x:String">
+                <Literal x:TypeArguments="x:String" Value="" />
+              </InArgument>
+            </ugam:DriveItemArgument.ParentIdFullPathHint>
+          </ugam:DriveItemArgument>
+        </uga:ReadRangeConnections.Item>
+        <uga:ReadRangeConnections.RangeMetadata>
+          <ugsm:RangeMetadataSlim ColumnStart="1" RangeType="Range" />
+        </uga:ReadRangeConnections.RangeMetadata>
+      </uga:ReadRangeConnections>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="478.6666666666667,57.333333333333336" sap2010:WorkflowViewState.IdRef="CommentOut_1">
         <ui:CommentOut.Body>
           <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="546.6666666666666,766.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <sap:WorkflowViewStateService.ViewState>
@@ -452,8 +480,14 @@
             </Sequence>
           </Sequence>
         </ui:CommentOut.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
       </ui:CommentOut>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="583.3333333333334,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Google sheet extracted&quot;]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478.6666666666667,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Google sheet extracted&quot;]" />
     </Sequence>
   </Sequence>
 </Activity>
